@@ -1,4 +1,4 @@
-RegisterHook("Function /Game/Pal/Blueprint/Controller/AIAction/BaseCamp/BP_AIActionBaseCamp_Sleep.BP_AIActionBaseCamp_Sleep_C:ActionStart", function(self, ControlledPawn)
+RegisterHook("/Game/Pal/Blueprint/Controller/AIAction/BaseCamp/BP_AIActionBaseCamp_Sleep.BP_AIActionBaseCamp_Sleep_C:ActionStart", function(self, ControlledPawn)
 	local characterActor = self:get():GetOuter():GetOuter().Character
 	
 	local palParam = utility:GetIndividualCharacterParameterByActor(characterActor)
